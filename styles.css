@@ -1,0 +1,622 @@
+
+a:link {
+	color: #705050;
+}
+
+a:visited {
+	color: #504060;
+}
+
+body {
+	text-align: left;
+	margin: 0 auto; 
+	background-color: rgb(196,231,251) ; 
+	font: 14px Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-align: justify ;
+	margin-left: 5px;
+	margin-right: 5px; 
+}
+
+h1 {
+	font: 20px Arial, Helvetica, sans-serif;
+	color: rgb(55,78,109);/*rgb(91,221,69);*/ /*dark blue*/
+	font-weight: bold;
+	background: url(images/h1.jpg) no-repeat left;
+	padding-left: 35px;
+	
+}
+
+h2 {
+	font: 15px Arial, Helvetica, sans-serif;
+	color: rgb(44,176,233);/*rgb(255,134,13);*/ /*darken sky blue*/ 
+	font-weight: bold;
+}
+
+#body {
+	width:98%;
+	background-color: white ; 
+	margin:0 auto;
+	
+}
+#logo {
+	height: 150px;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 10px;
+	background: url(images/header.jpg) no-repeat;
+	background-position: left;/*right;*/
+	background-color: rgb(223,228,232) ; 
+}
+
+#logo h1 {
+	text-align: center;
+	font: 35px Sylfaen;
+	font-style: normal;
+	color: rgb(73,73,73) ;/*rgb(44,176,233);*//*rgb(91,221,69); *//*darken sky blue*/
+	font-weight: bold;
+	padding-left: 0;
+	background: none;
+}
+	
+#logo a {
+	font-style: normal;
+	color: rgb(115,204,243);/*rgb(91,221,69); */ /*sky blue*/
+	font-weight: bold; 
+	text-decoration: none;
+} 
+
+#logo_desc {
+	width:100%;
+	font: 16px Arial, Helvetica, sans-serif;
+	color: black; 
+	font-weight: bold;
+}
+
+#logo_desc a{
+	font: 16px Arial, Helvetica, sans-serif;
+	color: black; 
+	font-weight: bold;
+	width:100%;
+	
+}
+
+/* ------------ верх меню -------------- */
+#menu {
+	height: 60px;
+}
+
+#menu table {
+	width: 100%;
+	height: 100%;
+	border: 0px;	
+	background-color: rgb(157,220,247);/*rgb(254,242,0);*//*sky blue*/
+}
+
+#menu table td{
+	width: 11.11%;
+	background-color: rgb(226,244,251);/*rgb(91,221,69);*//*light blue*/
+	font: 18px Times new roman;
+	text-align: center;
+	color: rgb(55,78,109);/*white;*/ /*dark blue*/ 
+	font-weight: bold;
+	/*text-transform: uppercase;*/
+}
+
+#menu a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font: 18px Times new roman;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu a:hover {
+/*	text-decoration: none;
+	font-weight: bold;
+	background-color: rgb(226,244,251);*//*rgb(255,194,15);*//*light blue*/
+	color: rgb(55,78,109); /*dark blue*/
+}
+
+#menu a:visited {
+}
+
+/* ------------верхняя навигация - путь до объекта + режим -------------------*/
+#ierarchy {
+	font: 12px Arial, Helvetica, sans-serif;
+	background-color:  rgb(157,220,247);/*rgb(254,242,0);*//*sky blue*/
+  	text-align: left;
+  	vertical-align : bottom;
+  	padding-left: 15px;
+  	padding-top: 5px;
+  	height: 26px;
+	font-weight: bold;
+}
+
+#ierarchy a{
+	text-decoration: none;
+	font-weight: bold;
+}	
+
+#path {
+	float: left;
+	width : 75%;
+	
+}
+
+/*-------------------текст на первой странице-----------------------*/
+#header_info ul{
+	list-style-image:url('/images/arrow.png') ;
+}
+
+#header_info li {
+	text-align: left;
+	text-decoration: none;
+	height: 26px;
+	
+}
+
+#header_info p {
+	margin-bottom: 10px;
+}
+
+#header_info b {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(29,145,254);/*rgb(255,134,13);*/ /*darken sky blue*/
+}
+
+#header_info a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(29,145,254);/*rgb(255,134,13);*/ /*darken sky blue*/
+}
+
+#header_info a:VISITED {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(29,145,254);/*rgb(255,134,13);*/ /*darken sky blue*/
+	
+}
+/*-----------------------окно авторизации----------------------------*/
+
+#login_h1 {
+	float:right;
+	text-align: right;
+	margin-right:5px;
+}
+
+#right
+{
+	width: 180px;
+	float: right;
+	margin-right:5px;
+}
+
+#login {
+	text-align: center;
+	background: url(images/key.jpg) no-repeat center;
+	background-position: left top;
+	border: 1px solid #A5A9B2;
+	margin-bottom:15px;
+	margin-top:15px;
+	/*height: 120px;*/
+}
+
+#login H3
+{
+	text-align: center;
+	width: 224px;
+	height: 27px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-top: 20px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: url(images/title.gif) no-repeat;
+}
+
+#login h2{
+	text-align: center;
+	color: rgb(44,176,233);/*rgb(255,134,13);*/ /*darken sky blue*/ 
+	
+}
+
+#login a{
+	color: black;
+}
+
+#login table{
+	width: 98%;
+}
+
+#login #t1{
+	text-align: right;
+}
+#login #t2{
+	text-align: left;
+}
+
+/*------------------текущий заказ-------------------------*/
+#cur_cart {
+	border: 1px solid #A5A9B2;
+	height: 130px;
+	text-align: left;
+	background: url(images/cart.jpg) no-repeat ;
+}
+
+#cur_cart p{
+	text-align: center;
+}
+
+#cur_cart h2{
+	text-align: center;
+	color: rgb(44,176,233);/*rgb(255,134,13);*/ /*darken sky blue*/ 
+	
+}
+/*-------------left admin documents tree-------------------*/
+#left {
+	/*background: url(images/444.jpg) repeat-y left top ;*/
+	width: 130px;
+	text-align: left;
+	float: left;
+}
+
+#left a{
+	text-decoration: none;
+}
+
+#left p {
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#left ol, #left ul {
+	list-style-image:url(images/arrow.png) ;
+	margin-left: 5px; 
+	padding-left: 6px;
+}
+
+#left li {
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-size: 10px;
+	padding-bottom: 2px;
+}
+
+/*------------------------------------*/
+#main
+{
+/*height: 14px;*/
+	/*width: 757px;
+	padding: 40px;
+	padding-top: 10px; */
+	padding-left: 10px;
+	margin-right: 210px;
+	border: 2px solid #FFFFFF;
+	background-color: rgb(255,255,255) ; 
+}
+
+#main_admin
+{
+/*height: 14px;*/
+	/*width: 757px;
+	padding: 40px;
+	padding-top: 10px; */
+	padding-left: 10px;
+	margin-left: 140px;
+	margin-right: 210px;
+	border: 2px solid #FFFFFF;
+	background-color: rgb(255,255,255) ; 
+}
+
+#footer {
+	height: 44px;
+	clear: both;
+	padding-top: 10px;
+	margin-top: 15px;
+	border-top: 2px solid #FFFFFF;
+	/*background: url(images/footer.gif) repeat-x top; */ 
+	background-color:  rgb(157,220,247);/*rgb(254,242,0);*//*sky blue*/
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #666666;
+}
+
+#footer a {
+	color: #666666;
+}
+
+#footer a {
+	color: #666666;
+}
+
+#errormsg {
+	text-color: red;
+}
+
+#editclass {
+	/*background-color: rgb(238,238,238) ;*/
+	width: 100%;
+}
+
+#edit_user_field {
+	font-weight: bold;
+}
+
+#edit_user_value {
+	padding-bottom: 15px; 
+		
+}
+
+#edit_user_explain {
+	font-size: 8px;
+}
+
+#stddoc_value {
+	font-weight: normal;
+	width: 70%;
+}
+	
+#stddoc_value img {
+	width :100px;
+	height:100px;
+	align: left;
+}
+
+
+#admin_label {
+	font-weight: bold;
+	width: 30%;
+}
+	
+#admin_value {
+	font-weight: normal;
+	width: 70%;
+}
+	
+#admin_value img {
+	width :50px;
+	height:50px;
+}
+
+#delete_file_btn {
+	background: url(images/del.png) no-repeat bottom;
+	border:0px;
+	height: 35px;
+	width: 35px;
+}
+
+#delete_file_btn_small {
+	background: url(images/del_small.png) no-repeat bottom;
+	border:0px;
+	height: 20px;
+	width: 20px;
+}
+		
+#save_file_btn {
+	background: url(images/save2.png) no-repeat bottom;
+	border:0px;
+	height: 35px;
+	width: 35px;
+}
+
+#new_file_btn {
+	background: url(images/new2.png) no-repeat bottom;
+	border:0px;
+	height: 35px;
+	width: 35px;
+}
+
+#new_dir_btn {
+	background: url(images/folder.png) no-repeat bottom;
+	border:0px;
+	height: 35px;
+	width: 35px;
+}
+
+#line {
+	width:98%;
+	border:1px solid #0000FF;
+	height: 0px;
+}
+
+#doc_methods {
+
+}
+
+#myaccount {
+	width:98%;
+}
+
+#myaccount td{
+	width:30%;
+	text-align: center;
+}
+
+#myaccount td img{
+	height: 90px;
+	/*width: 80px;*/
+}
+
+/*--------------------------панель поиска --------------------------*/
+#search_drug {
+		text-align: right;
+}
+
+#search_drug #search_submit{ 
+	background: url('images/search.png') no-repeat bottom;
+	border:1px solid #eeeeee;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+}
+
+#about_us p {
+	font: 14px Arial;
+}
+
+#about_us li {
+	font: 14px Arial;
+}
+
+
+/* ------------------список дочерних документов-------------------- */
+#child_list {
+	padding-bottom:10px;
+	border-bottom: 1px solid #dddddd;
+}
+
+#child_list h2 {
+	font: 15px Arial, Helvetica, sans-serif;
+	color: rgb(255,194,15); 
+	font-weight: bold;
+	
+}
+
+#child_list h2 a{
+	font: 15px Arial, Helvetica, sans-serif;
+	color: rgb(255,194,15); 
+	font-weight: bold;
+	
+}
+
+#child_list a {
+	text-align: left;
+	text-decoration: none;
+}
+
+#child_list table {
+	width: 100%;
+}
+
+#child_list #t1 {
+/*	width: 100px;
+	height: 100px;*/
+}
+
+#child_list #t2 {
+	text-align: right;
+	padding-top: 5 px;
+}
+
+#child_list #t3 {
+	width: 30%;
+}
+
+#child_list #t3 img{
+	/*height: 100%;*/
+	border:0;
+}
+
+#child_list #t4 {
+	width: 70%;
+	vertical-align: top;
+}
+
+#child_list input {
+	width: 25px;
+}
+
+#child_name {
+	font-weight: bold;
+}
+
+#child_descr {
+	text-align: left;
+	width: 98%;
+}
+
+#child_button {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#child_button #to_cart {
+	background: url('images/addtocart.jpg') no-repeat left;
+	border:1px solid #eeeeee;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+	
+}
+
+/*-----------------------drugs-----------------------------*/
+#doc_params{
+	
+}
+
+#doc_params table{
+	width:99%;
+}
+
+#doc_params #t1{
+	width:30%;
+}
+
+#doc_params #t2{
+	text-align: left;
+}
+
+
+/* --------------модуль отображения текущего заказа -------------------- */
+#current_order {
+	width: 90%;		
+}
+
+#current_order th{
+	border-bottom: 1px solid;	
+	text-align: center;	
+}
+
+#current_order td{
+	border-bottom: 1px dashed;	
+}
+
+#current_order #t1{
+	width: 50%;		
+}
+
+#current_order #t2{
+	width: 10%;		
+	text-align: center;	
+}
+
+#current_order #t3{
+	width: 10%;		
+	text-align: right;	
+}
+
+#current_order #t4{
+	width: 10%;	
+	text-align: right;	
+}
+
+#current_order #t5{
+	width: 10%;		
+	border-bottom:0px;	
+}
+
+/* ------------------------страницы ---------------------- */
+#pager {
+	text-color: blue;
+}
+
+#pager a {
+	text-color: #0000FF;
+}
+
+#pager a visited {
+	text-color: #0000AA;
+}

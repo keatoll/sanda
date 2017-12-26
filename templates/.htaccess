@@ -1,0 +1,22 @@
+# ErrorDocument 404 /eh404.php
+# ErrorDocument 500 /eh500.php
+
+#Redirect
+# Redirect 303 /job http://job.vl.ru/
+# Redirect 303 /sota http://baza.farpost.ru/communication/
+# Redirect 303 /forums/ http://forums.vl.ru/
+# Redirect 303 /bazar http://baza.farpost.ru/
+# Redirect 303 /dengi_new http://vl.ru/dengi
+
+#Redirect to New
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewrireRule ^forums/(.*)f=(.*)$ http://forums.vl.ru/$1$2 [QSA,L]
+
+# RewriteEngine on
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^dengi/(.*)$ /dengi/index.php?uri=$1 [QSA,L]
+
+ <files *.*> 
+  Order Deny,Allow 
+  Deny From All 
+ </files>
